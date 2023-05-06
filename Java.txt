@@ -1,0 +1,8 @@
+Jpa - Java persistence API 
+
+  1.JPA relyatsion maʼlumotlar bazalaridan Java obyektlariga va aksincha maʼlumotlarni xaritalash, saqlash, yangilash va olish imkonini beradi. 
+  2.JPAni amalga oshirish odatda doimiylik provayderi deb ataladi.
+  3.JPA Java ob'ektlari va ma'lumotlar bazasi jadvallari o'rtasidagi xaritalashni aniqlash uchun doimiy metama'lumotlardan foydalanadi.
+  4.JPA barqarorlik metamaʼlumotlarini izohlar yoki XML yoki ikkalasining kombinatsiyasidan foydalangan holda belgilaydi. Agar ob'ektning doimiy metama'lumotlarini aniqlash uchun ikkala izoh va XML ishlatilsa, XML konfiguratsiyasi izohlar konfiguratsiyasini qayta yozadi.
+									idea command
+ctrl+shift+alt+j o'sha classdagi bir xil bo'lgan satrlarni belgilab hammasiga birdaniga o'zgartirish kiritish

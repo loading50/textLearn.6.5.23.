@@ -1,0 +1,79 @@
+
+
+
+entity Student{
+  name String
+  lastName String
+  thirdName String
+  birthday String
+  governmentImplementedFeeForLivingInRent Boolean
+  infoLiveStatus InfoLiveStatus
+  familyStatus FamilyStatus
+  socialStatus SocialStatus
+  disabilitiesPeople DisabilitiesPeople
+  byCategories ByCategories
+  numberOrphan NumberOrphan
+  talantedStudents TalantedStudents
+  financialMotivation FinancialMotivation
+  paymentContractAmountPaid PaymentContractAmountPaid
+  underSpecialSupervisionDelinquencyAndCrime UnderSpecialSupervisionDelinquencyCrime
+
+}
+// Talabalarning yashash holati bo‘yicha ma’lumot
+enum InfoLiveStatus{
+  FROM_HIS_HOME, STUDENT_ACCOMMODATION, RENTED_HOUSE, RELATIVE_HOUSE
+}//O‘z uyidan qatnab tahsil oladiganlar, Talabalar turar joyida yashaydiganlar, Ijarada yashaydiganlar, Qarindoshlarinikida yashaydiganlar
+
+//Talabalarning oilaviy holati
+enum FamilyStatus{
+  NOT_MARRIED, MARRIED, DIVORCEE, WIDOW
+}//Turmush qurmagan, Turmush qurgan, Ajrashgan, Beva
+
+//Talabalarning ijtimoiy holat
+enum SocialStatus{
+	IHYAR, IRON_NOTEBOOK_CHILD, STUDY_BASIS_PRIVILEGE, FROM_MILITARY_RETURN,
+    PENSIONER, WORKING_STUDENT, WITH_CHILDREN, PARENTS_DEPRIVED_RIGHTS
+} //Kam ta’minlangan oila farzandlari(IHYaR), Temir daftardagi oila farzandlari, Imtiyoz asosida o‘qishga qabul qilinganlar, Muddatli harbiy xizmatdan qaytganlar
+// Nafaqa oluvchilar, Ishlaydigan talabalar, Farzandlik talabalar, Ota-onasi ota-onalik huquqidan mahrum etilganlar
+
+// Nogironligi bo'lganlar
+enum DisabilitiesPeople{
+  GROUP1, GROUP2, GROUP3
+} //1-guruh, 2-guruh, 3-guruh
+
+//Toifalar bo'yicha
+enum ByCategories{
+   VISUALLY_IMPAIRED, LOCOMOTOR_ORGANS_DAMAGED,  HEARING_IMPAIRED, INJURED, HEARING_IMPARIED, BLIND, DEAF_YOUTH, IMPEDIMENT
+} // Zaif ko‘ruvchilar, Tayanch harakati a'zolari shikastlanganlar,  Zaif eshituvchilar, Ko‘zi ojizlar,Kar yoshlar, Nutqida nuqsoni borlar,Boshqa turdagi nogironligi bo‘lganlar
+
+// Yetim talabalar soni
+enum NumberOrphan{
+  REAL_ORPHAN, HALF_ORPHAN, SOCIAL_ORPHAN
+} //chin yetim, yarim yetim, ijtimoiy yetim
+
+// Iqtidorli talabalar
+enum TalantedStudents{
+  AWARDESS_STATE_AWARD, AWARDED_BADGES, PRESIDENTIAL_SCHOLARSHIP_HOLDERS, STATE_SCHOLARSHIP_HOLDERS,
+  INTERNAL_SCHOLARSHIP_HOLDERS, WiN_NATIONAL_SPORT_COMPETITION, INTERNAL_SPORT_COMPETITION_WIN, WIN_REPUBLIC_SCIENSE_OLYMPIAD,
+  INTERNAL_SCIENSE_OLYMPIADS_WIN, OTH_ACHIEVEMENT_BENEFITS
+}
+//Davlat mukofoti bilan taqdirlanganlar,Ko‘krak nishonlari bilan taqdirlanganlar,Prezident stipendiyasi sohiblari, Davlat stipendiyalari sohiblari,
+//Xalqaro stipendiyalar sohiblari, Respublika sport musobaqalari g‘oliblari, Xalqaro sport musobaqalari g‘oliblari , Respublika fan olimpiadalari g‘oliblari,
+//Xalqaro fan olimpiadalari g‘oliblari
+
+//   Talabalarning moddiy rag‘batlantirilish holati
+enum FinancialMotivation{
+  WHO_PASSED_EXAMS, EXAM_EXPENSES_COVERED
+} // imtihon topshirganlar, imtihon xarajatlari qoplab berilganlar
+
+// To‘lov-shartnoma mablag‘i to‘lab berilganlar
+enum PaymentContractAmountPaid{
+  YOUTH_NOTEBOOK_FUND, LOCAL_GOVERNMENTS, HEIGHER_EDUCATION_INSTITUTION, SPONSORS_AND_OTH
+} // "Yoshlar daftari" jamg'armasidan, Mahalliy hokimliklar tomonidan, Oliy ta’lim muassasasi tomonidan, Homiylar va boshqa tashkilotlar tomonidan
+
+// Huquqbuzarlik va jinoyatchilik bo‘yicha alohida nazoratda turuvchi talabalar
+enum UnderSpecialSupervisionDelinquencyCrime{
+  YOUTH_TROUBLED_FAMILIES, JIEM_RETURNEES, THESE_PROBATION, COMMITTED_ADMINISTRATIVE_OFFENSE,
+  WOMEN_PROTECTION_ORDER_HARASSMENT_VIOLENCE
+} // Notinch oiladagi yoshlar, JIEMdan qaytganlar,  Probatsiya hisobida turuvchilar, Ma’muriy huquqbuzarlik sodir etganlar,
+// Tazyiq va zo‘ravonlikdan jabrlanganligi sababli “himoya orderi” berilgan xotin-qizlar

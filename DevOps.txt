@@ -1,0 +1,104 @@
+										Devops
+
+DevOpsdan oldin ishlab chiqish va operatsion guruh to'liq izolyatsiyada ishlagan.
+  Sinov va joylashtirish loyihalashdan so'ng amalga oshirilgan alohida tadbirlar edi. Shuning uchun ular haqiqiy qurish davrlariga qaraganda ko'proq vaqt sarfladilar.
+  DevOps-dan foydalanmasdan, jamoa a'zolari loyihani qurish o'rniga ko'p vaqtlarini sinovdan o'tkazish, joylashtirish va loyihalash uchun sarflashadi.
+  Qo'lda kodni joylashtirish ishlab chiqarishda inson xatolariga olib keladi.
+Kodlash va operatsion guruhlar alohida vaqt jadvallariga ega va sinxronlashtirilmaydi, bu esa qo'shimcha kechikishlarga olib keladi.			
+										OS	
+
+Operatsion tizim kompyuterda ishlaydigan eng muhim dastur hisoblanadi .
+ U kompyuter xotirasi va jarayonlarini , shuningdek, uning barcha dasturiy ta'minot va apparat vositalarini boshqaradi .
+ Shuningdek, u kompyuter tilida qanday gapirishni bilmasdan kompyuter bilan muloqot qilish imkonini beradi. Operatsion tizimsiz kompyuter foydasizdir .
+										I/O 
+	
+Batch processing, input/ output I/O. Memory Protection, Time Sharing
+
+							
+
+													CI/CD
+
+CI/CD quvur liniyasi dasturiy ta'minotni etkazib berish jarayonini avtomatlashtiradi. U kod tuzadi, testlarni o'tkazadi va dasturiy ta'minotning yangi versiyasini xavfsiz o'rnatishga yordam beradi. CI/CD quvur liniyasi qo'lda xatolarni kamaytiradi, ishlab chiquvchilarga fikr-mulohazalarni taqdim etadi va mahsulotni tez takrorlash imkonini beradi.
+
+CI va CD uzluksiz integratsiya va uzluksiz yetkazib berish/uzluksiz joylashtirishni anglatadi. Oddiy so'zlar bilan aytganda, CI - bu dasturiy ta'minotni ishlab chiqishning zamonaviy amaliyoti bo'lib, unda qo'shimcha kod o'zgarishlari tez-tez va ishonchli tarzda amalga oshiriladi. CI tomonidan ishga tushirilgan avtomatlashtirilgan qurish va sinov bosqichlari omborga birlashtirilgan kod o'zgarishlarining ishonchliligini ta'minlaydi. Keyin kod CD jarayonining bir qismi sifatida tez va muammosiz yetkaziladi. Dasturiy ta'minot olamida CI/CD quvur liniyasi ishlab chiquvchilarning ish stollaridan qo'shimcha kod o'zgarishlarini tez va ishonchli ishlab chiqarishga yetkazish imkonini beruvchi avtomatlashtirishni anglatadi.
+						STAGE CI/CD						
+1.Source Stage -> Git push
+2.Build Stage -> compile,  docker build
+3.Test Stage -> smoke,  unit,  integration
+4.Deploy Stage -> staging,  QA, production
+
+1.Manba bosqichida CI/CD quvur liniyasi kod ombori tomonidan ishga tushiriladi. Dasturdagi har qanday o'zgarish ekvivalent quvur liniyasini boshqaradigan CI/CD vositasiga bildirishnomani keltirib chiqaradi. Boshqa keng tarqalgan triggerlar foydalanuvchi tomonidan boshlangan ish oqimlari, avtomatlashtirilgan jadvallar va boshqa quvurlar natijalarini o'z ichiga oladi.
+2. Bu CI/CD quvurining ikkinchi bosqichi bo'lib, unda siz manba kodini va uning bog'liqliklarini birlashtirasiz. Bu asosan oxirgi foydalanuvchiga yuborishingiz mumkin bo'lgan dasturiy ta'minotning ishga tushiriladigan namunasini yaratish uchun amalga oshiriladi.
+
+
+									    				aws
+
+Amazon Web Services (AWS) dunyodagi eng keng qamrovli va keng tarqalgan bulut bo'lib, butun dunyo bo'ylab ma'lumotlar markazlaridan 200 dan ortiq to'liq xususiyatli xizmatlarni taklif etadi. Millionlab mijozlar, jumladan, eng tez rivojlanayotgan startaplar, yirik korxonalar va yetakchi davlat idoralari – xarajatlarni kamaytirish, chaqqonroq bo‘lish va tezroq innovatsiyalar yaratish uchun AWS’dan foydalanmoqda.
+
+
+													OS terms
+
+https://testbook.com/question-answer/which-of-the-following-is-fastest-memory--602cfc35c10649fcf9c33c09#:~:text=Cache%20memory%20is%20an%20extremely,data%20from%20the%20Main%20memory.
+
+    AUTOEXEC.BAT  ->	A special-purpose batch file that is automatically carried out by MS-DOS Operating system when the computer is started     or restarted. Created by the user or by operating system installation, the file contains basic start-up command that help configure the  system to installed devices and to user’s preference.
+
+ GPU -> Qurilmangizdagi grafik ishlov berish bloki (GPU) grafiklar, effektlar va videolar kabi grafik bilan bog‘liq ishlarni bajarishga yordam beradi . Turli xil GPU turlari haqida bilib oling va ehtiyojlaringizga mos keladiganini toping. Integratsiyalashgan grafik protsessorlar kompyuteringizning anakartiga o‘rnatilgan bo‘lib, noutbuklar yupqa, yengil va quvvatni tejash imkonini beradi.
+
+												IAM
+AWS Identity and Access Management (IAM) bu AWS resurslariga kirishni xavfsiz boshqarishga yordam beruvchi veb-xizmatdir. IAM yordamida siz foydalanuvchilar qaysi AWS resurslariga kirishini nazorat qiluvchi ruxsatlarni markazlashtirilgan tarzda boshqarishingiz mumkin. Kim autentifikatsiya qilingan (tizimga kirgan) va resurslardan foydalanishga ruxsat berilgan (ruxsatlari bor) nazorat qilish uchun IAM dan foydalanasiz. 	
+												Command
+					chmod
+chmod +rwx filename to add permissions
+chmod -rwx directoryname to remove permissions. 
+chmod +x filename to allow executable permissions.
+chmod -wx filename to take out write and executable permissions.
+df -hT /dev/xvda1 - storage type, size, used, avail, use%, mounted on
+												UNIX 
+Unix -- trademarked as UNIX -- is a multiuser, multitasking operating system (OS) designed for flexibility and adaptability. Originally developed in the 1970s, Unix was one of the first OSes to be written in the C programming language.
+												POSIX
+POSIX (Portable Operating System Interface) is a family of standards for maintaining compatibility between operating systems. It describes utilities, APIs, and services that a compliant OS should provide to software, thus making it easier to port programs from one system to another.
+
+												Alpine image
+sudo, apt va boshqa so'rovlar boshida o'qilmaydi. df fayl tizimidagi umumiy joy va mavjud bo'sh joy haqida ma'lumotni ko'rsatadi
+df:
+	 -P      POSIX output format
+        -k      1024-byte blocks (default)
+        -m      1M-byte blocks
+        -h      Human readable (e.g. 1K 243M 2G)
+        -T      Print filesystem type
+        -t TYPE Print only mounts of this type
+        -a      Show all filesystems
+        -i      Inodes
+        -B SIZE Blocksize
+vi {document} - edit and viewing command
+	$ vi <filename> — Open or edit a file.
+i — Switch to Insert mode.
+Esc — Switch to Command mode.
+:w — Save and continue editing.
+:wq or ZZ — Save and quit/exit vi.
+:q! — Quit vi and do not save changes.
+yy — Yank (copy) a line of text.
+p — Paste a line of yanked text below the current line.
+o — Open a new line under the current line.
+O — Open a new line above the current line.
+A — Append to the end of the line.
+a — Append after the cursor’s current position.
+I — Insert text at the beginning of the current line.
+b — Go to the beginning of the word.
+e — Go to the end of the word.
+x — Delete a single character.
+dd — Delete an entire line.
+Xdd — Delete X number of lines.
+Xyy — Yank X number of lines.
+G — Go to the last line in a file.
+XG — Go to line X in a file.
+gg — Go to the first line in a file.
+:num — Display the current line’s line number.
+h — Move left one character.
+j — Move down one line.
+k — Move up one line.
+l — Move right one character.	
+											Kubernetes
+To install Kubernetes on Alpine Linux, you will need an Alpine Linux install with internet access. It is recommended to have at least 2 CPUs with 4GB of RAM and 10GB of disk for each node. For HA control planes, you’ll need a minimum of three nodes 1.
+
+You will need to set up the repositories to include community, edge community, and testing 1. Then you can proceed with the node setup by adding the necessary kernel modules for networking and installing the required packages such as cni-plugin-flannel, cni-plugins, flannel, flannel-contrib-cni, kubelet, kubeadm, kubectl, docker, uuidgen, and nfs-utils 1.

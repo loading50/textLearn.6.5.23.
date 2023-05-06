@@ -1,0 +1,15 @@
+Required:
+gmail
+tel number
+credit card required money 1$(always yes
+
+							Steps
+1-(create root User)
+2-choose business or personal account, posal code your city
+3-activate MFA for root user assign mfa device
+4- create iam group and user((optional)connect group)
+
+
+						Docker image running 
+required 
+ECS service

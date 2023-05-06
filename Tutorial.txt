@@ -1,0 +1,37 @@
+									SQL
+
+SQL - bu ma'lumotlar bazalarida ma'lumotlarni saqlash, manipulyatsiya qilish va olish uchun standart til.
+Asosan buyruqlar katta xarfda yoziladi.
+update -> jadvaldagi ma'lumotni o'zgartirish uchun ishlatiladi. Where bandi qaysilarini belgilab beradi, agar bo'lmasa hammasini o'zgartiradi
+select -> belgilash columnlarga nisbatan
+delete -> o'chirish
+
+* -> hammasi
+as -> jadval yoki jadvaldagi ustunga bir operatsiyalik nom berish 
+
+count -> mos kelgan qatorlar soni
+avg - avarage -> o'rtacha qiymati
+Sum-> qiymatlar yig'indisi
+from -> qaysi table dan ligi 
+
+
+where filtrlash uchun unda = < ..etc  '<>' = '!=' between like in
+like = Search for a pattern 
+in -> To specify multiple possible values for a column	
+between -> Between a certain range	
+where - > buyruqda and or not operatorlar bilan ishlash mumkin
+(oxirida)order by -> Ustunni saralash uchun ASC(default) o'sish , DESC kamayish tartibida -> bular ustun nomidan so'ng ishlatiladi
+asc -> ascending desc-> descending
+like -> belgilangan harflarni joylashuviga qarab qidirishda ishlatiladi; where operatori column belgilagandan so'ng ishlatiladi
+Wildcards -> belgilik operatorlar
+  * '%' -> bitta yoki bir nechta belgilarni ifodalaydi	
+  * '_' -> bitta belgini ifodayaldi 
+  * '[]' -> shu qavs ichidagi belgilarni ifodaydi
+  *  '^' -> inkor
+  *  '-' -> ikki belgi orasiga u yoki bu 
+  *  hamma belgilar qo'shilib ishlatilishi mumkin 
+  * M: 'a%' -> a harfi bilan boshlanganni qidirish; '_a' -> 2-belgisi a harfi bo'lganlarni qidirish
+
+
+
+
