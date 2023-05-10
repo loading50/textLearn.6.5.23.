@@ -1,6 +1,3 @@
-
-
-
 entity Student{
   name String
   lastName String
