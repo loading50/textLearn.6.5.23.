@@ -1,0 +1,5 @@
+wget- download file
+stdout- wait password root
+gpg --dearmor- pack or unpack , else PEM armors
+gpg keyrings- location usr/share/keyrings
+tee 
