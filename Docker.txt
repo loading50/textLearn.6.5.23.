@@ -1,1 +1,4 @@
-docker pull centos:6.6
+docker ps -a - all containers view
+docker images - all images
+Linux mint  
+Docker a lot of bugs. Do'nt run container. Status exited
